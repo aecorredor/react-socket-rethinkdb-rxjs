@@ -3,7 +3,6 @@ html,body, #root { height: 100%; margin: 0px; padding: 0px; }
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,700);
 
-
 body {
   font-family: Roboto;
   background-color: #E5E5E5;
@@ -12,8 +11,6 @@ body {
 * {
   box-sizing: border-box;
 }
-
-
 
 .App {
   text-align: left;

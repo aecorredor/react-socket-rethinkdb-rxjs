@@ -1,0 +1,26 @@
+2018-02-21T08:50:03.311935000 0.088144s notice: Recursively removing directory /Users/Alejandro/projects/education/realtime-rethink-pluralsight/lessons/4_load_drawing/server/rethinkdb_data/tmp
+2018-02-21T08:50:03.313536000 0.089748s notice: Initializing directory /Users/Alejandro/projects/education/realtime-rethink-pluralsight/lessons/4_load_drawing/server/rethinkdb_data
+2018-02-21T08:50:03.313653000 0.089861s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/Alejandro/projects/education/realtime-rethink-pluralsight/lessons/4_load_drawing/server/rethinkdb_data' did not already exist or is empty.)
+2018-02-21T08:50:03.313745000 0.089953s notice: Running rethinkdb 2.3.6 (CLANG 9.0.0 (clang-900.0.37))...
+2018-02-21T08:50:03.317850000 0.094059s notice: Running on Darwin 17.4.0 x86_64
+2018-02-21T08:50:03.317898000 0.094106s notice: Loading data from directory /Users/Alejandro/projects/education/realtime-rethink-pluralsight/lessons/4_load_drawing/server/rethinkdb_data
+2018-02-21T08:50:03.416986000 0.193192s info: Automatically using cache size of 4837 MB
+2018-02-21T08:50:03.418620000 0.194825s notice: Listening for intracluster connections on port 29015
+2018-02-21T08:50:03.421529000 0.197735s notice: Listening for client driver connections on port 28015
+2018-02-21T08:50:03.421673000 0.197878s notice: Listening for administrative HTTP connections on port 8080
+2018-02-21T08:50:03.421675000 0.197880s notice: Listening on cluster addresses: 127.0.0.1, 127.94.0.1, 127.94.0.2, ::1
+2018-02-21T08:50:03.421683000 0.197888s notice: Listening on driver addresses: 127.0.0.1, 127.94.0.1, 127.94.0.2, ::1
+2018-02-21T08:50:03.421686000 0.197891s notice: Listening on http addresses: 127.0.0.1, 127.94.0.1, 127.94.0.2, ::1
+2018-02-21T08:50:03.421693000 0.197898s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2018-02-21T08:50:03.421700000 0.197905s notice: Server ready, "ip_192_168_86_28_ec2_internal_4ls" 25373c3c-98f7-42d6-88e2-efe9d34acf65
+2018-02-21T08:54:32.659939000 269.428839s info: Table 089b05f1-ce1f-4776-8250-01515e8a77cf: Starting a new Raft election for term 1.
+2018-02-21T08:54:32.660230000 269.429130s info: Table 089b05f1-ce1f-4776-8250-01515e8a77cf: Added replica on this server.
+2018-02-21T08:54:32.668119000 269.437020s info: Table 089b05f1-ce1f-4776-8250-01515e8a77cf: This server is Raft leader for term 1. Latest log index is 0.
+2018-02-21T09:09:45.693863000 1182.437989s info: Table 689a4a13-82ed-4379-89de-23e5bee40785: Starting a new Raft election for term 1.
+2018-02-21T09:09:45.694174000 1182.438300s info: Table 689a4a13-82ed-4379-89de-23e5bee40785: Added replica on this server.
+2018-02-21T09:09:45.701938000 1182.446064s info: Table 689a4a13-82ed-4379-89de-23e5bee40785: This server is Raft leader for term 1. Latest log index is 0.
+2018-02-21T09:48:45.349840000 3522.122008s notice: Server got SIGINT from pid 9038, uid 503; shutting down...
+2018-02-21T09:48:45.350067000 3522.122234s notice: Shutting down client connections...
+2018-02-21T09:48:45.350692000 3522.122859s notice: All client connections closed.
+2018-02-21T09:48:45.350708000 3522.122875s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2018-02-21T09:48:45.363823000 3522.135991s notice: Storage engine shut down.

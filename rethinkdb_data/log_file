@@ -1,0 +1,107 @@
+2018-02-18T13:45:36.963449000 0.039318s notice: Recursively removing directory /Users/Alejandro/projects/education/realtime-rethink-pluralsight/rethinkdb_data/tmp
+2018-02-18T13:45:36.965168000 0.041039s notice: Initializing directory /Users/Alejandro/projects/education/realtime-rethink-pluralsight/rethinkdb_data
+2018-02-18T13:45:36.965286000 0.041154s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/Alejandro/projects/education/realtime-rethink-pluralsight/rethinkdb_data' did not already exist or is empty.)
+2018-02-18T13:45:36.965379000 0.041246s notice: Running rethinkdb 2.3.6 (CLANG 9.0.0 (clang-900.0.37))...
+2018-02-18T13:45:36.969613000 0.045481s notice: Running on Darwin 17.4.0 x86_64
+2018-02-18T13:45:36.969663000 0.045531s notice: Loading data from directory /Users/Alejandro/projects/education/realtime-rethink-pluralsight/rethinkdb_data
+2018-02-18T13:45:37.056082000 0.131950s info: Automatically using cache size of 6917 MB
+2018-02-18T13:45:37.057841000 0.133708s notice: Listening for intracluster connections on port 29015
+2018-02-18T13:45:37.060816000 0.136683s notice: Listening for client driver connections on port 28015
+2018-02-18T13:45:37.060955000 0.136823s notice: Listening for administrative HTTP connections on port 8080
+2018-02-18T13:45:37.060958000 0.136825s notice: Listening on cluster addresses: 127.0.0.1, 127.94.0.1, 127.94.0.2, ::1
+2018-02-18T13:45:37.060963000 0.136830s notice: Listening on driver addresses: 127.0.0.1, 127.94.0.1, 127.94.0.2, ::1
+2018-02-18T13:45:37.060966000 0.136833s notice: Listening on http addresses: 127.0.0.1, 127.94.0.1, 127.94.0.2, ::1
+2018-02-18T13:45:37.060973000 0.136840s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2018-02-18T13:45:37.060979000 0.136846s notice: Server ready, "alejandsxevombp_lan_cms" 0efd57e6-ee84-484f-9c01-51c31c670ba7
+2018-02-18T13:46:17.976579000 41.052341s info: Table db10d3f9-b819-4f27-b3bb-bc2ffd058e5c: Starting a new Raft election for term 1.
+2018-02-18T13:46:17.977019000 41.052780s info: Table db10d3f9-b819-4f27-b3bb-bc2ffd058e5c: Added replica on this server.
+2018-02-18T13:46:17.985962000 41.061724s info: Table db10d3f9-b819-4f27-b3bb-bc2ffd058e5c: This server is Raft leader for term 1. Latest log index is 0.
+2018-02-18T13:50:48.495492000 311.570695s info: Table 0559360f-5da9-4f07-9797-3e5303688bee: Starting a new Raft election for term 1.
+2018-02-18T13:50:48.495797000 311.570999s info: Table 0559360f-5da9-4f07-9797-3e5303688bee: Added replica on this server.
+2018-02-18T13:50:48.503643000 311.578846s info: Table 0559360f-5da9-4f07-9797-3e5303688bee: This server is Raft leader for term 1. Latest log index is 0.
+2018-02-20T00:12:00.332034000 0.138039s notice: Running rethinkdb 2.3.6 (CLANG 9.0.0 (clang-900.0.37))...
+2018-02-20T00:12:00.337076000 0.143077s notice: Running on Darwin 17.4.0 x86_64
+2018-02-20T00:12:00.337137000 0.143137s notice: Loading data from directory /Users/Alejandro/projects/education/realtime-rethink-pluralsight/rethinkdb_data
+2018-02-20T00:12:00.367703000 0.173703s info: Automatically using cache size of 1242 MB
+2018-02-20T00:12:00.368888000 0.174887s notice: Listening for intracluster connections on port 29015
+2018-02-20T00:12:00.396336000 0.202336s notice: Listening for client driver connections on port 28015
+2018-02-20T00:12:00.396460000 0.202460s notice: Listening for administrative HTTP connections on port 8080
+2018-02-20T00:12:00.396511000 0.202510s notice: Listening on cluster addresses: 127.0.0.1, 127.94.0.1, 127.94.0.2, ::1
+2018-02-20T00:12:00.396513000 0.202513s notice: Listening on driver addresses: 127.0.0.1, 127.94.0.1, 127.94.0.2, ::1
+2018-02-20T00:12:00.396515000 0.202515s notice: Listening on http addresses: 127.0.0.1, 127.94.0.1, 127.94.0.2, ::1
+2018-02-20T00:12:00.396517000 0.202517s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2018-02-20T00:12:00.396519000 0.202519s notice: Server ready, "alejandsxevombp_lan_cms" 0efd57e6-ee84-484f-9c01-51c31c670ba7
+2018-02-20T00:12:01.559976000 1.365968s info: Table db10d3f9-b819-4f27-b3bb-bc2ffd058e5c: Starting a new Raft election for term 2.
+2018-02-20T00:12:01.576643000 1.382635s info: Table db10d3f9-b819-4f27-b3bb-bc2ffd058e5c: This server is Raft leader for term 2. Latest log index is 2.
+2018-02-20T00:12:01.840937000 1.646927s info: Table 0559360f-5da9-4f07-9797-3e5303688bee: Starting a new Raft election for term 2.
+2018-02-20T00:12:01.866446000 1.672436s info: Table 0559360f-5da9-4f07-9797-3e5303688bee: This server is Raft leader for term 2. Latest log index is 2.
+2018-02-21T09:49:34.675153000 0.053087s notice: Running rethinkdb 2.3.6 (CLANG 9.0.0 (clang-900.0.37))...
+2018-02-21T09:49:34.680662000 0.058592s notice: Running on Darwin 17.4.0 x86_64
+2018-02-21T09:49:34.680721000 0.058650s notice: Loading data from directory /Users/Alejandro/projects/education/realtime-rethink-pluralsight/rethinkdb_data
+2018-02-21T09:49:34.701645000 0.079574s info: Automatically using cache size of 4777 MB
+2018-02-21T09:49:34.702225000 0.080154s notice: Listening for intracluster connections on port 29015
+2018-02-21T09:49:34.731341000 0.109270s notice: Listening for client driver connections on port 28015
+2018-02-21T09:49:34.731479000 0.109407s notice: Listening for administrative HTTP connections on port 8080
+2018-02-21T09:49:34.731481000 0.109410s notice: Listening on cluster addresses: 127.0.0.1, 127.94.0.1, 127.94.0.2, ::1
+2018-02-21T09:49:34.731483000 0.109412s notice: Listening on driver addresses: 127.0.0.1, 127.94.0.1, 127.94.0.2, ::1
+2018-02-21T09:49:34.731485000 0.109414s notice: Listening on http addresses: 127.0.0.1, 127.94.0.1, 127.94.0.2, ::1
+2018-02-21T09:49:34.731487000 0.109415s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2018-02-21T09:49:34.731601000 0.109530s notice: Server ready, "alejandsxevombp_lan_cms" 0efd57e6-ee84-484f-9c01-51c31c670ba7
+2018-02-21T09:49:35.854592000 1.232518s info: Table db10d3f9-b819-4f27-b3bb-bc2ffd058e5c: Starting a new Raft election for term 3.
+2018-02-21T09:49:35.871244000 1.249171s info: Table db10d3f9-b819-4f27-b3bb-bc2ffd058e5c: This server is Raft leader for term 3. Latest log index is 5.
+2018-02-21T09:49:36.024880000 1.402806s info: Table 0559360f-5da9-4f07-9797-3e5303688bee: Starting a new Raft election for term 3.
+2018-02-21T09:49:36.043522000 1.421448s info: Table 0559360f-5da9-4f07-9797-3e5303688bee: This server is Raft leader for term 3. Latest log index is 5.
+2018-02-21T09:51:05.560373000 90.938094s info: Table b1d2470e-2b8a-4ffb-a1f3-12f39d18a590: Starting a new Raft election for term 1.
+2018-02-21T09:51:05.560611000 90.938331s info: Table b1d2470e-2b8a-4ffb-a1f3-12f39d18a590: Added replica on this server.
+2018-02-21T09:51:05.569749000 90.947470s info: Table b1d2470e-2b8a-4ffb-a1f3-12f39d18a590: This server is Raft leader for term 1. Latest log index is 0.
+2018-02-21T09:52:01.032234000 146.409827s notice: Server got SIGINT from pid 9231, uid 503; shutting down...
+2018-02-21T09:52:01.032425000 146.410018s notice: Shutting down client connections...
+2018-02-21T09:52:01.032560000 146.410153s notice: All client connections closed.
+2018-02-21T09:52:01.032570000 146.410163s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2018-02-21T09:52:01.039100000 146.416694s notice: Storage engine shut down.
+2018-02-22T09:05:18.797260000 0.029499s notice: Running rethinkdb 2.3.6 (CLANG 9.0.0 (clang-900.0.37))...
+2018-02-22T09:05:18.801732000 0.033969s notice: Running on Darwin 17.4.0 x86_64
+2018-02-22T09:05:18.801782000 0.034018s notice: Loading data from directory /Users/Alejandro/projects/education/realtime-rethink-pluralsight/rethinkdb_data
+2018-02-22T09:05:18.834912000 0.067147s info: Automatically using cache size of 5010 MB
+2018-02-22T09:05:18.837211000 0.069446s notice: Listening for intracluster connections on port 29015
+2018-02-22T09:05:18.902004000 0.134238s notice: Listening for client driver connections on port 28015
+2018-02-22T09:05:18.902153000 0.134387s notice: Listening for administrative HTTP connections on port 8080
+2018-02-22T09:05:18.902155000 0.134388s notice: Listening on cluster addresses: 127.0.0.1, 127.94.0.1, 127.94.0.2, ::1
+2018-02-22T09:05:18.902158000 0.134391s notice: Listening on driver addresses: 127.0.0.1, 127.94.0.1, 127.94.0.2, ::1
+2018-02-22T09:05:18.902229000 0.134463s notice: Listening on http addresses: 127.0.0.1, 127.94.0.1, 127.94.0.2, ::1
+2018-02-22T09:05:18.902233000 0.134466s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2018-02-22T09:05:18.902235000 0.134468s notice: Server ready, "alejandsxevombp_lan_cms" 0efd57e6-ee84-484f-9c01-51c31c670ba7
+2018-02-22T09:05:19.890760000 1.122973s info: Table b1d2470e-2b8a-4ffb-a1f3-12f39d18a590: Starting a new Raft election for term 2.
+2018-02-22T09:05:19.908474000 1.140687s info: Table b1d2470e-2b8a-4ffb-a1f3-12f39d18a590: This server is Raft leader for term 2. Latest log index is 2.
+2018-02-22T09:05:20.030387000 1.262598s info: Table db10d3f9-b819-4f27-b3bb-bc2ffd058e5c: Starting a new Raft election for term 4.
+2018-02-22T09:05:20.043688000 1.275898s info: Table db10d3f9-b819-4f27-b3bb-bc2ffd058e5c: This server is Raft leader for term 4. Latest log index is 8.
+2018-02-22T09:05:20.692594000 1.924790s info: Table 0559360f-5da9-4f07-9797-3e5303688bee: Starting a new Raft election for term 4.
+2018-02-22T09:05:20.708211000 1.940407s info: Table 0559360f-5da9-4f07-9797-3e5303688bee: This server is Raft leader for term 4. Latest log index is 8.
+2018-02-22T09:26:34.485350000 1275.691040s notice: Server got SIGINT from pid 25162, uid 503; shutting down...
+2018-02-22T09:26:34.485537000 1275.691227s notice: Shutting down client connections...
+2018-02-22T09:26:34.485673000 1275.691363s notice: All client connections closed.
+2018-02-22T09:26:34.485682000 1275.691371s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2018-02-22T09:26:34.499842000 1275.705532s notice: Storage engine shut down.
+2018-02-24T13:31:26.381070000 0.029599s notice: Running rethinkdb 2.3.6 (CLANG 9.0.0 (clang-900.0.37))...
+2018-02-24T13:31:26.386437000 0.034964s notice: Running on Darwin 17.4.0 x86_64
+2018-02-24T13:31:26.386521000 0.035046s notice: Loading data from directory /Users/Alejandro/projects/education/realtime-rethink-pluralsight/rethinkdb_data
+2018-02-24T13:31:26.413644000 0.062169s info: Automatically using cache size of 4234 MB
+2018-02-24T13:31:26.415025000 0.063550s notice: Listening for intracluster connections on port 29015
+2018-02-24T13:31:26.460801000 0.109325s notice: Listening for client driver connections on port 28015
+2018-02-24T13:31:26.460937000 0.109460s notice: Listening for administrative HTTP connections on port 8080
+2018-02-24T13:31:26.461021000 0.109544s notice: Listening on cluster addresses: 127.0.0.1, 127.94.0.1, 127.94.0.2, ::1
+2018-02-24T13:31:26.461023000 0.109547s notice: Listening on driver addresses: 127.0.0.1, 127.94.0.1, 127.94.0.2, ::1
+2018-02-24T13:31:26.461025000 0.109549s notice: Listening on http addresses: 127.0.0.1, 127.94.0.1, 127.94.0.2, ::1
+2018-02-24T13:31:26.461027000 0.109550s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2018-02-24T13:31:26.461029000 0.109552s notice: Server ready, "alejandsxevombp_lan_cms" 0efd57e6-ee84-484f-9c01-51c31c670ba7
+2018-02-24T13:31:27.529803000 1.178300s info: Table 0559360f-5da9-4f07-9797-3e5303688bee: Starting a new Raft election for term 5.
+2018-02-24T13:31:27.547556000 1.196052s info: Table 0559360f-5da9-4f07-9797-3e5303688bee: This server is Raft leader for term 5. Latest log index is 11.
+2018-02-24T13:31:28.154393000 1.802874s info: Table b1d2470e-2b8a-4ffb-a1f3-12f39d18a590: Starting a new Raft election for term 3.
+2018-02-24T13:31:28.189246000 1.837726s info: Table b1d2470e-2b8a-4ffb-a1f3-12f39d18a590: This server is Raft leader for term 3. Latest log index is 5.
+2018-02-24T13:31:28.295862000 1.944339s info: Table db10d3f9-b819-4f27-b3bb-bc2ffd058e5c: Starting a new Raft election for term 5.
+2018-02-24T13:31:28.310910000 1.959388s info: Table db10d3f9-b819-4f27-b3bb-bc2ffd058e5c: This server is Raft leader for term 5. Latest log index is 11.
+2018-02-26T09:32:04.984392000 12288.915932s notice: Server got SIGINT from pid 15220, uid 503; shutting down...
+2018-02-26T09:32:04.984727000 12288.916262s notice: Shutting down client connections...
+2018-02-26T09:32:04.985283000 12288.916818s notice: All client connections closed.
+2018-02-26T09:32:04.985292000 12288.916827s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2018-02-26T09:32:05.002603000 12288.934138s notice: Storage engine shut down.

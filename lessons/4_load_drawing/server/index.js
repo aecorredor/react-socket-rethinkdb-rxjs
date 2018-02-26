@@ -20,6 +20,23 @@ function subscribeToDrawings({ client, connection }) {
   });
 }
 
+function handleLinePublish({ connection, line }) {
+  console.log('saving line to the db');
+  r.table('lines')
+  .insert({ ...line, timestamp: new Date() })
+  .run(connection);
+}
+
+function subscribeToDrawingLines({ client, connection, drawingId }) {
+  return r.table('lines')
+  .filter(r.row('drawingId').eq(drawingId))
+  .changes({ include_initial: true })
+  .run(connection)
+  .then(cursor => {
+    cursor.each((err, lineRow) =>
+      client.emit(`drawingLine:${drawingId}`));
+  });
+}
 
 r.connect({
   host: 'localhost',
@@ -35,11 +52,17 @@ r.connect({
       client,
       connection,
     }));
+
+    client.on('publishLine', line => handleLinePublish({ connection, line }));
+
+    client.on('subscribeToDrawingLines', drawingId => subscribeToDrawingLines({
+      client,
+      connection,
+      drawingId,
+    }));
   });
 });
-
 
 const port = 8000;
 io.listen(port);
 console.log('listening on port ', port);
-
